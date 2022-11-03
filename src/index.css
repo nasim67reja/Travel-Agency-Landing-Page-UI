@@ -5,7 +5,21 @@
   padding: 0;
   margin: 0;
 }
-
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 1650px) {
+  html {
+    font-size: 80%;
+  }
 }

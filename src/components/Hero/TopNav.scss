@@ -1,23 +1,27 @@
 .top-nav {
-  max-width: 1181px;
+  max-width: 118rem;
   margin: 0 auto;
+  padding: 0 1rem;
+  padding-top: 5.8rem;
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
   .navbar {
     display: flex;
     list-style: none;
-    gap: 48px;
+    gap: 4.8rem;
     li {
       a:link,
       a:visited {
         // font-family: "Google Sans";
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
-        line-height: 22px;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
         color: #212832;
         text-decoration: none;
+      }
+      button {
+        padding: 0.5rem 1rem;
       }
     }
   }

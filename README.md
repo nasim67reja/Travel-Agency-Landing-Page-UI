@@ -1,4 +1,4 @@
-# NetFlix Clone
+# Travel-Agency-Landing-Page-UI
 
 ## Table of contents
 
