@@ -1,0 +1,24 @@
+.top-nav {
+  max-width: 1181px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  .navbar {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    li {
+      a:link,
+      a:visited {
+        // font-family: "Google Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        color: #212832;
+        text-decoration: none;
+      }
+    }
+  }
+}
