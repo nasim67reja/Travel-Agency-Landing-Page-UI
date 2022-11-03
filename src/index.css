@@ -11,8 +11,42 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-
-@media (min-width: 1500px) {
+/* re use class */
+.container {
+  max-width: 118rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  color: #5e6282;
+}
+.heading-secondary {
+  font-family: "Volkhov";
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #14183e;
+  margin: 2rem 0 8rem 0;
+}
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* @media (min-width: 1500px) {
   html {
     font-size: 70%;
   }
@@ -22,4 +56,4 @@ body {
   html {
     font-size: 80%;
   }
-}
+} */
