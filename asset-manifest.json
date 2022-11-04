@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.8f985ac7.css",
-    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.4ec92553.js",
+    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.6250c2a4.css",
+    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.0e2d6c2a.js",
     "static/media/TravellerPng.png": "/Travel-Agency-Landing-Page-UI/static/media/TravellerPng.04070d2ccb9ec8d23136.png",
     "static/media/RomeC.png": "/Travel-Agency-Landing-Page-UI/static/media/RomeC.ff731cfedae57c8ee5d3.png",
     "static/media/EuropeC.png": "/Travel-Agency-Landing-Page-UI/static/media/EuropeC.b6f97ecc5e43848cec5a.png",
@@ -9,25 +9,32 @@
     "static/media/LondonC.png": "/Travel-Agency-Landing-Page-UI/static/media/LondonC.fe9e20fc843435abb409.png",
     "static/media/DecoreHeading.svg": "/Travel-Agency-Landing-Page-UI/static/media/DecoreHeading.5f1da5511e33b10aa38b9cfa0d2e3795.svg",
     "static/media/payment.svg": "/Travel-Agency-Landing-Page-UI/static/media/payment.b1a8b0345164c783ebd9ee444fc9a48a.svg",
+    "static/media/appleVector.svg": "/Travel-Agency-Landing-Page-UI/static/media/appleVector.f56306d267c5e67e6b1b6abe959562be.svg",
+    "static/media/playVector.svg": "/Travel-Agency-Landing-Page-UI/static/media/playVector.777e82937cedd5b3918559391112b185.svg",
     "static/media/car.svg": "/Travel-Agency-Landing-Page-UI/static/media/car.044867f80d67a15eef9e9032765ee7b1.svg",
     "static/media/building.svg": "/Travel-Agency-Landing-Page-UI/static/media/building.62142bccc8352d203f0312211f9f23cb.svg",
     "static/media/Logo.svg": "/Travel-Agency-Landing-Page-UI/static/media/Logo.2fd10ee1763a4ae36318397acd0c7f18.svg",
     "static/media/DecoreCard.svg": "/Travel-Agency-Landing-Page-UI/static/media/DecoreCard.3128c95520dbd628c78114ea04a0f5f7.svg",
     "static/media/map.svg": "/Travel-Agency-Landing-Page-UI/static/media/map.0e55183013eae036cb1a29796e3698f1.svg",
     "static/media/choose.svg": "/Travel-Agency-Landing-Page-UI/static/media/choose.df24a59966d364106c65ec94fabf4f09.svg",
+    "static/media/instagramS.svg": "/Travel-Agency-Landing-Page-UI/static/media/instagramS.f44fd494ac907c8602dd046dbb16270a.svg",
+    "static/media/apple.svg": "/Travel-Agency-Landing-Page-UI/static/media/apple.938ffde78bd9e7af55932b6aef7026a1.svg",
     "static/media/heart.svg": "/Travel-Agency-Landing-Page-UI/static/media/heart.7c251194bd270c13ad7f0b583f8009b6.svg",
+    "static/media/google-play.svg": "/Travel-Agency-Landing-Page-UI/static/media/google-play.666fd3ae4bd91db0ff103829b71170cd.svg",
     "static/media/leaf.svg": "/Travel-Agency-Landing-Page-UI/static/media/leaf.ca4772c624a58c7394e1402396e2b540.svg",
     "static/media/send.svg": "/Travel-Agency-Landing-Page-UI/static/media/send.411093f1bea56d913adc498efc888740.svg",
+    "static/media/twitter.svg": "/Travel-Agency-Landing-Page-UI/static/media/twitter.8e490cdb9bb1f68946ebd61d6300bf40.svg",
     "static/media/navigation.svg": "/Travel-Agency-Landing-Page-UI/static/media/navigation.00b61d7d6f7e8a99e399ea24b1f12c78.svg",
     "index.html": "/Travel-Agency-Landing-Page-UI/index.html",
     "static/media/tripBg.svg": "/Travel-Agency-Landing-Page-UI/static/media/tripBg.27345feffd8d7321e84fe72ba9f52118.svg",
+    "static/media/Facebook.svg": "/Travel-Agency-Landing-Page-UI/static/media/Facebook.a9ec1c569e2b144b4dcddfe495e21207.svg",
     "static/media/Decore.svg": "/Travel-Agency-Landing-Page-UI/static/media/Decore.48ef6814030db27da1c74091f45f1b6f.svg",
     "static/media/Polygon.svg": "/Travel-Agency-Landing-Page-UI/static/media/Polygon.c7fbfb942a543e44d5f882271658687e.svg",
-    "main.8f985ac7.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.8f985ac7.css.map",
-    "main.4ec92553.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.4ec92553.js.map"
+    "main.6250c2a4.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.6250c2a4.css.map",
+    "main.0e2d6c2a.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.0e2d6c2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f985ac7.css",
-    "static/js/main.4ec92553.js"
+    "static/css/main.6250c2a4.css",
+    "static/js/main.0e2d6c2a.js"
   ]
 }
