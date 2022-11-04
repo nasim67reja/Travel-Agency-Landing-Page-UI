@@ -1,0 +1,107 @@
+.footer-box {
+  justify-content: center;
+  justify-items: center;
+  .column {
+    h3 {
+      font-weight: 500;
+      font-size: 4.4rem;
+      line-height: 6.6rem;
+      color: #181e4b;
+      margin-bottom: 0.5rem;
+      transform: translateY(-1.2rem);
+    }
+    .text {
+      font-weight: 500;
+      font-size: 1.3rem;
+    }
+    h4 {
+      font-weight: 700;
+      font-size: 21px;
+      color: #080809;
+      margin-bottom: 3.5rem;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      li {
+        a:link,
+        a:visited {
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 1.8rem;
+          color: #5e6282;
+        }
+      }
+    }
+    .social-icon {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      .icon-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4.1rem;
+        height: 4.1rem;
+        border-radius: 50%;
+        background: #ffffff;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .icon-box--special {
+        width: 45px;
+        height: 45px;
+        background: conic-gradient(
+          from 180deg at 50% 50%,
+          #b8d2f1 0deg,
+          #f289aa 60deg,
+          #c68bf0 106.09deg,
+          #d164da 153.75deg,
+          #c963e8 221.25deg,
+          #bfc2e8 258.75deg,
+          #ffc999 288.75deg,
+          #d0d8c9 315deg,
+          #bad0f1 334.13deg,
+          #ced8cb 358.97deg,
+          rgba(255, 255, 255, 0) 360deg
+        );
+      }
+    }
+    .text-app {
+      font-weight: 500;
+      font-size: 2rem;
+      letter-spacing: 0.005em;
+      margin-bottom: 2rem;
+    }
+    .store {
+      display: flex;
+      gap: 0.8rem;
+      .store-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 107px;
+        height: 35px;
+        background: #080809;
+        border-radius: 17.5px;
+        .icon-w {
+          width: 2rem;
+          height: 2rem;
+        }
+        .vector-w {
+          width: 5.364rem;
+          height: 2.48rem;
+        }
+      }
+    }
+  }
+}
+.center {
+  text-align: center;
+  margin: 8rem 0;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #5e6282;
+}
