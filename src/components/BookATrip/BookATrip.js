@@ -9,6 +9,8 @@ import Greece from "../../assets/Greece.png";
 import leaf from "../../assets/leaf.svg";
 import map from "../../assets/map.svg";
 import send from "../../assets/send.svg";
+import building from "../../assets/building.svg";
+import heart from "../../assets/heart.svg";
 
 const Feature = ({ iconImg, h5 }) => {
   return (
@@ -62,10 +64,11 @@ const BookATrip = () => {
               </div>
               <div className="group-footer">
                 <div>
-                  <span>icon</span>
+                  <img src={building} alt="icon-building" />
                   <span>24 people going</span>
                 </div>
-                <div>icon</div>
+                <div></div>
+                <img src={heart} alt="icon-heart" />
               </div>
             </div>
           </div>
