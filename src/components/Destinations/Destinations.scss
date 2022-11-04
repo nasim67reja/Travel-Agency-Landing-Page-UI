@@ -1,6 +1,60 @@
 .cards {
-  gap: 5.5rem;
+  padding-left: 4rem;
+  position: relative;
+  .bg-icon {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    z-index: -1;
+  }
   .card {
-    border: 2px solid black;
+    max-width: 31.5rem;
+    height: 45.7rem;
+    position: relative;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+      drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+      drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+      drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+      drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+      drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover {
+      transform: translate(0.5rem, -0.5rem);
+    }
+    .text-box {
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom-left-radius: 2.28rem;
+      border-bottom-right-radius: 2.3rem;
+      width: 100%;
+      padding: 2rem;
+      .place-box {
+        display: flex;
+        justify-content: space-between;
+        div {
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 124.5%;
+          color: #5e6282;
+        }
+      }
+      .days {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+        gap: 1.8rem;
+        span {
+          font-weight: 500;
+          font-size: 1.6rem;
+          line-height: 123.5%;
+          color: #5e6282;
+        }
+      }
+    }
   }
 }

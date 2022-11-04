@@ -10,6 +10,9 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 124.5%;
+  color: #5e6282;
 }
 /* re use class */
 .container {
