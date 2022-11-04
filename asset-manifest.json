@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.c34678f3.css",
-    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.9bcfbd44.js",
+    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.f44f1b4e.css",
+    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.22874524.js",
     "static/media/TravellerPng.png": "/Travel-Agency-Landing-Page-UI/static/media/TravellerPng.04070d2ccb9ec8d23136.png",
     "static/media/RomeC.png": "/Travel-Agency-Landing-Page-UI/static/media/RomeC.ff731cfedae57c8ee5d3.png",
     "static/media/EuropeC.png": "/Travel-Agency-Landing-Page-UI/static/media/EuropeC.b6f97ecc5e43848cec5a.png",
@@ -38,11 +38,11 @@
     "static/media/Decore.svg": "/Travel-Agency-Landing-Page-UI/static/media/Decore.48ef6814030db27da1c74091f45f1b6f.svg",
     "static/media/Polygon.svg": "/Travel-Agency-Landing-Page-UI/static/media/Polygon.c7fbfb942a543e44d5f882271658687e.svg",
     "static/media/arrowDown.svg": "/Travel-Agency-Landing-Page-UI/static/media/arrowDown.6f72daf3647664d2df604122bf12759f.svg",
-    "main.c34678f3.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.c34678f3.css.map",
-    "main.9bcfbd44.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.9bcfbd44.js.map"
+    "main.f44f1b4e.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.f44f1b4e.css.map",
+    "main.22874524.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.22874524.js.map"
   },
   "entrypoints": [
-    "static/css/main.c34678f3.css",
-    "static/js/main.9bcfbd44.js"
+    "static/css/main.f44f1b4e.css",
+    "static/js/main.22874524.js"
   ]
 }
