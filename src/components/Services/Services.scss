@@ -56,14 +56,42 @@
       }
       .box {
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 10rem;
+        height: 10rem;
         z-index: -1;
         left: -4rem;
         bottom: -1rem;
         background: #df6951;
         border-radius: 30px 0px 10px;
       }
+    }
+  }
+}
+
+// Responsive Design
+@media (max-width: 73em) {
+  .service-box {
+    .dot {
+      display: none;
+    }
+  }
+}
+@media (max-width: 53.2em) {
+  .section-services {
+    .features {
+      padding: 5rem;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      gap: 8rem;
+    }
+  }
+}
+@media (max-width: 42em) {
+  .section-services {
+    .features {
+      padding: 0 13rem;
+      grid-template-columns: 1fr;
+      gap: 6rem;
     }
   }
 }

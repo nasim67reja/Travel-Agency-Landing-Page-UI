@@ -54,14 +54,42 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 1365px) {
+@media (max-width: 85.4em) {
   html {
     font-size: 58%;
   }
 }
 
-@media (max-width: 1288px) {
+@media (max-width: 80.5em) {
   html {
     font-size: 54%;
+  }
+}
+
+@media (max-width: 67em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 61em) {
+  html {
+    font-size: 46%;
+  }
+}
+
+@media (max-width: 57em) {
+  html {
+    font-size: 42%;
+  }
+}
+@media (max-width: 53em) {
+  html {
+    font-size: 38%;
+  }
+}
+
+@media (max-width: 42em) {
+  html {
+    font-size: 34%;
   }
 }

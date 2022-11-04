@@ -189,3 +189,19 @@
     }
   }
 }
+
+@media (max-width: 42em) {
+  .section-BookATrip {
+    .booktrip-box {
+      grid-template-columns: 1fr;
+      .text-box {
+        .title {
+          text-align: center;
+        }
+        .heading-secondary {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

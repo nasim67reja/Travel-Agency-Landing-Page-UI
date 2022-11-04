@@ -5,6 +5,9 @@
   padding-top: 5.8rem;
   display: flex;
   justify-content: space-between;
+  .nav-logo {
+    height: 6rem;
+  }
   .navbar {
     display: flex;
     align-items: center;
@@ -29,56 +32,6 @@
         cursor: pointer;
         &:hover {
           opacity: 0.7;
-        }
-        select {
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          -ms-appearance: none;
-          appearance: none;
-          outline: 0;
-          box-shadow: none;
-          border: 0 !important;
-          background: green;
-          background-image: none;
-        }
-        /* Remove IE arrow */
-        select::-ms-expand {
-          display: none;
-        }
-        /* Custom Select */
-        .select {
-          position: relative;
-          display: flex;
-          width: 20em;
-          height: 3em;
-          line-height: 3;
-          background: #2c3e50;
-          overflow: hidden;
-          border-radius: 0.25em;
-        }
-        select {
-          flex: 1;
-          padding: 0 0.5em;
-          color: #fff;
-          cursor: pointer;
-        }
-        /* Arrow */
-        .select::after {
-          content: "\25BC";
-          position: absolute;
-          top: 0;
-          right: 0;
-          padding: 0 1em;
-          background: #34495e;
-          cursor: pointer;
-          pointer-events: none;
-          -webkit-transition: 0.25s all ease;
-          -o-transition: 0.25s all ease;
-          transition: 0.25s all ease;
-        }
-        /* Transition */
-        .select:hover::after {
-          color: green;
         }
       }
     }
@@ -111,6 +64,39 @@
           &:hover {
             opacity: 0.7;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 67em) {
+  .top-nav {
+    .navbar {
+      gap: 4.4rem;
+    }
+  }
+}
+
+@media (max-width: 42em) {
+  .top-nav {
+    padding: 0 4rem;
+    padding-top: 5.8rem;
+    .nav-logo {
+      height: 3rem;
+    }
+    .navbar {
+      gap: 1.4rem;
+      li {
+        button {
+          padding: 0.3rem 1.2rem;
+          font-size: 1.8rem;
+        }
+      }
+      .option {
+        transform: translateX(-1rem);
+        button {
+          font-size: 1.8rem;
         }
       }
     }

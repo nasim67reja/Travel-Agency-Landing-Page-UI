@@ -4,12 +4,11 @@ import Logo from "../../assets/Logo.svg";
 import arrowDown from "../../assets/arrowDown.svg";
 
 const TopNav = () => {
-  const [value, setValue] = useState("EN");
   const [ovarlayIsOpen, setOvarlayIsOpen] = useState(false);
   return (
     <div className="top-nav">
       <div>
-        <img src={Logo} alt="Logo" />
+        <img className="nav-logo" src={Logo} alt="Logo" />
       </div>
       <ul className="navbar">
         <li>
@@ -29,7 +28,7 @@ const TopNav = () => {
         </li>
         <li className="option">
           <button onClick={() => setOvarlayIsOpen((prevSt) => !prevSt)}>
-            <span>{value}</span>
+            <span>EN</span>
             <img src={arrowDown} alt="arrow-down" />
           </button>
           {ovarlayIsOpen && (

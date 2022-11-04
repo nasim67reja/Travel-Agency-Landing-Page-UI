@@ -33,7 +33,7 @@ const Feature = ({ iconImg, h5 }) => {
 const BookATrip = () => {
   return (
     <section className="section section-BookATrip">
-      <div className="grid-2-cols container grid">
+      <div className="grid-2-cols booktrip-box container grid">
         <div className="text-box">
           <div className="title">Easy and Fast</div>
           <h2 className="heading-secondary">

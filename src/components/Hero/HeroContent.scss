@@ -21,8 +21,8 @@
       font-family: "Volkhov";
       font-style: normal;
       font-weight: 700;
-      font-size: 84px;
-      line-height: 89px;
+      font-size: 8.4rem;
+      line-height: 8.9rem;
       letter-spacing: -0.04em;
       margin: 2.5rem 0;
       color: #181e4b;
@@ -38,8 +38,7 @@
       font-family: "Poppins";
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 30px;
+      line-height: 3rem;
       color: #5e6282;
     }
     .btn-list {
@@ -60,7 +59,7 @@
       .btn-cta {
         background: #f1a501;
         box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-        border-radius: 10px;
+        border-radius: 1rem;
         padding: 1.8rem 2.6rem;
         border: none;
         // font-family: "Google Sans";
@@ -97,6 +96,35 @@
     // border: 2px solid black;
     img {
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 53.2em) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    .text-box {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 0 12rem;
+      grid-row-start: 2;
+      h1 {
+        margin: 1rem 0;
+        span {
+          top: 7rem;
+        }
+      }
+      .btn-list {
+        justify-content: center;
+        gap: 3rem;
+      }
+    }
+  }
+}
+@media (max-width: 42em) {
+  .hero-content {
+    .text-box {
+      padding: 0 4rem;
     }
   }
 }

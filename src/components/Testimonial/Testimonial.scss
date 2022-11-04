@@ -109,3 +109,17 @@
     }
   }
 }
+
+@media (max-width: 42em) {
+  .section-testimonial {
+    .testimonial-box {
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+      gap: 6rem;
+      .slider-box {
+        padding: 2rem;
+      }
+    }
+  }
+}

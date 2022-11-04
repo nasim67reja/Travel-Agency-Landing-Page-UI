@@ -109,7 +109,7 @@
     .mask-right {
       overflow: hidden;
       position: absolute;
-      right: 0;
+      right: 2%;
       top: 0;
       width: 26.4rem;
       height: 35.1rem;
@@ -124,6 +124,15 @@
       right: -6%;
       width: 15.3rem;
       height: 16.3rem;
+    }
+  }
+}
+
+// Responsive Design
+@media (max-width: 76.375em) {
+  .subscribe-box {
+    .dot {
+      display: none;
     }
   }
 }

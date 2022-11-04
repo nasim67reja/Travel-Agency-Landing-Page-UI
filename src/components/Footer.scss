@@ -28,6 +28,7 @@
         font-size: 21px;
         color: #080809;
         margin-bottom: 3.5rem;
+        padding-top: 5px;
       }
       ul {
         list-style: none;
@@ -46,6 +47,7 @@
       }
       .social-icon {
         display: flex;
+        align-items: center;
         gap: 2rem;
         margin-bottom: 3rem;
         .icon-box {
@@ -121,5 +123,29 @@
     font-weight: 500;
     font-size: 1.4rem;
     color: #5e6282;
+  }
+}
+
+@media (max-width: 53.2em) {
+  .section-Footer {
+    .bg1 {
+      display: none;
+    }
+    .footer-box {
+      padding: 0 6rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8rem;
+      justify-items: start;
+    }
+  }
+}
+
+@media (max-width: 42em) {
+  .section-Footer {
+    .footer-box {
+      padding: 0 10rem;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 8rem;
+    }
   }
 }
