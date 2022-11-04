@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.6250c2a4.css",
-    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.0e2d6c2a.js",
+    "main.css": "/Travel-Agency-Landing-Page-UI/static/css/main.1fda8f03.css",
+    "main.js": "/Travel-Agency-Landing-Page-UI/static/js/main.a5d0e627.js",
     "static/media/TravellerPng.png": "/Travel-Agency-Landing-Page-UI/static/media/TravellerPng.04070d2ccb9ec8d23136.png",
     "static/media/RomeC.png": "/Travel-Agency-Landing-Page-UI/static/media/RomeC.ff731cfedae57c8ee5d3.png",
     "static/media/EuropeC.png": "/Travel-Agency-Landing-Page-UI/static/media/EuropeC.b6f97ecc5e43848cec5a.png",
@@ -15,26 +15,28 @@
     "static/media/building.svg": "/Travel-Agency-Landing-Page-UI/static/media/building.62142bccc8352d203f0312211f9f23cb.svg",
     "static/media/Logo.svg": "/Travel-Agency-Landing-Page-UI/static/media/Logo.2fd10ee1763a4ae36318397acd0c7f18.svg",
     "static/media/DecoreCard.svg": "/Travel-Agency-Landing-Page-UI/static/media/DecoreCard.3128c95520dbd628c78114ea04a0f5f7.svg",
+    "static/media/send2.svg": "/Travel-Agency-Landing-Page-UI/static/media/send2.bdc1758a9772152718d41b317b4860f9.svg",
     "static/media/map.svg": "/Travel-Agency-Landing-Page-UI/static/media/map.0e55183013eae036cb1a29796e3698f1.svg",
     "static/media/choose.svg": "/Travel-Agency-Landing-Page-UI/static/media/choose.df24a59966d364106c65ec94fabf4f09.svg",
     "static/media/instagramS.svg": "/Travel-Agency-Landing-Page-UI/static/media/instagramS.f44fd494ac907c8602dd046dbb16270a.svg",
     "static/media/apple.svg": "/Travel-Agency-Landing-Page-UI/static/media/apple.938ffde78bd9e7af55932b6aef7026a1.svg",
     "static/media/heart.svg": "/Travel-Agency-Landing-Page-UI/static/media/heart.7c251194bd270c13ad7f0b583f8009b6.svg",
+    "static/media/email.svg": "/Travel-Agency-Landing-Page-UI/static/media/email.6b5e71e5b0b8d5dc0cdc444bb4ff7d44.svg",
     "static/media/google-play.svg": "/Travel-Agency-Landing-Page-UI/static/media/google-play.666fd3ae4bd91db0ff103829b71170cd.svg",
     "static/media/leaf.svg": "/Travel-Agency-Landing-Page-UI/static/media/leaf.ca4772c624a58c7394e1402396e2b540.svg",
     "static/media/send.svg": "/Travel-Agency-Landing-Page-UI/static/media/send.411093f1bea56d913adc498efc888740.svg",
     "static/media/twitter.svg": "/Travel-Agency-Landing-Page-UI/static/media/twitter.8e490cdb9bb1f68946ebd61d6300bf40.svg",
-    "static/media/navigation.svg": "/Travel-Agency-Landing-Page-UI/static/media/navigation.00b61d7d6f7e8a99e399ea24b1f12c78.svg",
     "index.html": "/Travel-Agency-Landing-Page-UI/index.html",
+    "static/media/navigation.svg": "/Travel-Agency-Landing-Page-UI/static/media/navigation.00b61d7d6f7e8a99e399ea24b1f12c78.svg",
     "static/media/tripBg.svg": "/Travel-Agency-Landing-Page-UI/static/media/tripBg.27345feffd8d7321e84fe72ba9f52118.svg",
     "static/media/Facebook.svg": "/Travel-Agency-Landing-Page-UI/static/media/Facebook.a9ec1c569e2b144b4dcddfe495e21207.svg",
     "static/media/Decore.svg": "/Travel-Agency-Landing-Page-UI/static/media/Decore.48ef6814030db27da1c74091f45f1b6f.svg",
     "static/media/Polygon.svg": "/Travel-Agency-Landing-Page-UI/static/media/Polygon.c7fbfb942a543e44d5f882271658687e.svg",
-    "main.6250c2a4.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.6250c2a4.css.map",
-    "main.0e2d6c2a.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.0e2d6c2a.js.map"
+    "main.1fda8f03.css.map": "/Travel-Agency-Landing-Page-UI/static/css/main.1fda8f03.css.map",
+    "main.a5d0e627.js.map": "/Travel-Agency-Landing-Page-UI/static/js/main.a5d0e627.js.map"
   },
   "entrypoints": [
-    "static/css/main.6250c2a4.css",
-    "static/js/main.0e2d6c2a.js"
+    "static/css/main.1fda8f03.css",
+    "static/js/main.a5d0e627.js"
   ]
 }
