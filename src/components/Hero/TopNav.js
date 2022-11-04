@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./TopNav.scss";
 import Logo from "../../assets/Logo.svg";
+import arrowDown from "../../assets/arrowDown.svg";
 
 const TopNav = () => {
+  const [value, setValue] = useState("EN");
+  const [ovarlayIsOpen, setOvarlayIsOpen] = useState(false);
   return (
     <div className="top-nav">
       <div>
@@ -10,21 +13,35 @@ const TopNav = () => {
       </div>
       <ul className="navbar">
         <li>
-          <a href="#">Desitnations</a>
+          <a href="#adf">Desitnations</a>
         </li>
         <li>
-          <a href="#">Hotels</a>
+          <a href="#adkfl">Hotels</a>
         </li>
         <li>
-          <a href="#">Flights</a>
+          <a href="#adf">Flights</a>
         </li>
         <li>
-          <a href="#">Bookings</a>
+          <a href="#addf">Bookings</a>
         </li>
         <li>
           <button>Sign up</button>
         </li>
-        <li>EN</li>
+        <li className="option">
+          <button onClick={() => setOvarlayIsOpen((prevSt) => !prevSt)}>
+            <span>{value}</span>
+            <img src={arrowDown} alt="arrow-down" />
+          </button>
+          {ovarlayIsOpen && (
+            <ul className="ovarlay">
+              <li>BN</li>
+              <li>SP</li>
+              <li>PUR</li>
+              <li>GER</li>
+              <li>HIN</li>
+            </ul>
+          )}
+        </li>
       </ul>
     </div>
   );

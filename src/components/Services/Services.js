@@ -4,6 +4,7 @@ import Dish from "../../assets/Dish.png";
 import Microphone from "../../assets/Microphone.png";
 import Settings from "../../assets/settings.png";
 import Aeroplane from "../../assets/Aeroplane.png";
+import dot from "../../assets/ServiceDot.svg";
 
 const Feature = ({ src, alt, h4, description }) => {
   return (
@@ -18,7 +19,8 @@ const Feature = ({ src, alt, h4, description }) => {
 const Services = () => {
   return (
     <section className="section section-services">
-      <div className="container">
+      <div className="service-box container">
+        <img className="dot" src={dot} alt="dot svg" />
         <div className="title">Category</div>
         <h2 className="heading-secondary">We Offer Best Services</h2>
         <div className="features">

@@ -1,6 +1,14 @@
-.section {
+.section-hero {
   // border: 2px solid black;
   background-repeat: no-repeat;
   background-size: 60.631rem 67.258rem;
   background-position: top right;
+  position: relative;
+  overflow: hidden;
+  .bg {
+    // border: 2px solid black;
+    position: absolute;
+    top: -10%;
+    left: -24%;
+  }
 }

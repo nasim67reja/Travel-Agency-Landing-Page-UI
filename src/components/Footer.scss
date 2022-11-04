@@ -1,7 +1,13 @@
 .section-Footer {
   position: relative;
-  // overflow-x: hidden;
-  overflow: hidden;
+  overflow-x: hidden;
+  .bg1 {
+    // width: 40rem;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: -8%;
+  }
   .footer-box {
     justify-items: center;
     .column {

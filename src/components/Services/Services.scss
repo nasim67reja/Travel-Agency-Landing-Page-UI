@@ -1,5 +1,13 @@
 .section-services {
   margin: 12rem 0;
+  .service-box {
+    position: relative;
+    .dot {
+      position: absolute;
+      right: -5%;
+      top: 0%;
+    }
+  }
   div {
     text-align: center;
   }

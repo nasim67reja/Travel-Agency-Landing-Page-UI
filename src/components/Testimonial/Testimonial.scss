@@ -10,5 +10,102 @@
       margin: 0;
       color: #14183e;
     }
+    .dot-box {
+      margin-top: 11rem;
+      margin-left: 1rem;
+      display: flex;
+      gap: 2rem;
+      .dot {
+        height: 1.2rem;
+        width: 1.2rem;
+        border-radius: 50%;
+        background: #e5e5e5;
+        cursor: pointer;
+      }
+      .dot-active {
+        background: #39425d !important;
+      }
+    }
+  }
+  .slider-box {
+    // border: 2px solid black;
+    width: 70rem;
+    display: grid;
+    grid-template-columns: 90fr 10fr;
+    .content-box {
+      height: 36rem;
+      .content {
+        width: 54rem;
+        padding-left: 4rem;
+        margin-top: 3rem;
+        position: relative;
+        img {
+          position: absolute;
+          left: -2rem;
+          top: -4rem;
+        }
+        .content-text {
+          width: 50.4rem;
+          // height: 24.5rem;
+          padding: 3rem;
+          background: #ffffff;
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+            0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+            0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+            0px 20px 13px rgba(0, 0, 0, 0.01),
+            0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+            0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          border-radius: 10px;
+          blockquote {
+            font-weight: 500;
+            line-height: 3.2rem;
+            color: #5e6282;
+            margin-bottom: 4.5rem;
+          }
+          h6 {
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            color: #5e6282;
+            margin-bottom: 0.8rem;
+          }
+          p {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.1rem;
+            color: #5e6282;
+          }
+        }
+      }
+      .next {
+        width: 502px;
+        height: 232px;
+        border: 2px solid #f7f7f7;
+        filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+          drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+          drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+          drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+          drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+          drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+        border-radius: 10px;
+      }
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        .arrow {
+          cursor: pointer;
+        }
+        .arrow-up {
+          transform: rotate(180deg);
+          opacity: 0.3;
+        }
+      }
+    }
   }
 }
