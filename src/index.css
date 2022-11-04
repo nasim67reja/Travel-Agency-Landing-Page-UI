@@ -16,9 +16,9 @@ body {
 }
 /* re use class */
 .container {
-  max-width: 118rem;
+  max-width: 120rem;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .title {
   font-weight: 600;

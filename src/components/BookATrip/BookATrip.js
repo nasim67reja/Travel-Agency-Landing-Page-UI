@@ -11,6 +11,7 @@ import map from "../../assets/map.svg";
 import send from "../../assets/send.svg";
 import building from "../../assets/building.svg";
 import heart from "../../assets/heart.svg";
+import Mask from "../../assets/Mask.png";
 
 const Feature = ({ iconImg, h5 }) => {
   return (
@@ -46,8 +47,11 @@ const BookATrip = () => {
         </div>
         <div className="img-box">
           <img className="trip-bg" src={tripBg} alt="svg-background" />
+
           <div className="group-5">
-            <img src={Greece} alt="a women standing on Greece" />
+            <div className="img-main">
+              <img src={Greece} alt="a women standing on Greece" />
+            </div>
             <div className="text-info--box">
               <h4>Trip To Greece</h4>
               <div className="date-info">14-29 June | by by Robbin joseph</div>
@@ -69,6 +73,20 @@ const BookATrip = () => {
                 </div>
                 <div></div>
                 <img src={heart} alt="icon-heart" />
+              </div>
+            </div>
+          </div>
+          <div className="group-4">
+            <img src={Mask} alt="building" />
+            <div className="group-4-textbox">
+              <span>Ongoing</span>
+              <h4>Trip to rome</h4>
+              <div className="progress">
+                <span>40%</span>
+                <span className="complete">completed</span>
+              </div>
+              <div className="line">
+                <div className="inner-line"></div>
               </div>
             </div>
           </div>
