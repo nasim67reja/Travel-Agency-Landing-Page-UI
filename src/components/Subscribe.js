@@ -2,6 +2,9 @@ import React from "react";
 import "./Subscribe.scss";
 import send2 from "../assets/send2.svg";
 import email from "../assets/email.svg";
+import Group42 from "../assets/Group42.svg";
+import Group43 from "../assets/Group43.svg";
+import dot from "../assets/dot.svg";
 
 const Subscribe = () => {
   return (
@@ -31,8 +34,15 @@ const Subscribe = () => {
           </form>
         </div>
         <div className="rectangle"></div>
-        <div className="mask-left"></div>
-        <div className="mask-right"></div>
+        <div className="mask-left">
+          <img src={Group42} alt="line svg" />
+        </div>
+        <div className="mask-right">
+          <img src={Group43} alt="line svg" />
+        </div>
+        <div className="dot">
+          <img src={dot} alt="+ svg" />
+        </div>
       </div>
     </section>
   );

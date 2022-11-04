@@ -1,27 +1,13 @@
 .section-subscribe {
   padding: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 16rem;
   .subscribe-box {
     position: relative;
     padding: 5rem 8rem;
-    // border: 2px solid black;
-    .send-box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 7rem;
-      height: 7rem;
-      border-radius: 50%;
-      background: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
-      position: absolute;
-      top: -4rem;
-      right: -2rem;
-      img {
-        width: 3.477rem;
-        height: 3rem;
-      }
-    }
+    height: 40rem;
     .group-78 {
+      position: relative;
+      z-index: 100;
       h3 {
         font-weight: 600;
         font-size: 3.3rem;
@@ -78,11 +64,29 @@
         }
       }
     }
+
+    .send-box {
+      position: absolute;
+      top: -2rem;
+      right: 0rem;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      background: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
+      img {
+        width: 3.477rem;
+        height: 3rem;
+      }
+    }
     .rectangle {
       position: absolute;
       top: 0;
-      right: 0;
-      z-index: -1;
+      right: 2rem;
+      z-index: 1;
       width: 110rem;
       height: 40.7rem;
       background: #dfd7f9;
@@ -90,9 +94,36 @@
       border-radius: 20px 129px 20px 20px;
       transform: matrix(-1, 0, 0, 1, 0, 0);
     }
-    // .mask-left {
-    // }
-    // .mask-right {
-    // }
+    .mask-left {
+      overflow: hidden;
+      position: absolute;
+      bottom: 0%;
+      left: 7%;
+      width: 34.1rem;
+      height: 40rem;
+      opacity: 0.2;
+      img {
+        transform: rotate(6deg) translate(0rem, 11rem);
+      }
+    }
+    .mask-right {
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 26.4rem;
+      height: 35.1rem;
+      opacity: 0.2;
+      img {
+        transform: translate(4rem, 2rem);
+      }
+    }
+    .dot {
+      position: absolute;
+      bottom: -18%;
+      right: -6%;
+      width: 15.3rem;
+      height: 16.3rem;
+    }
   }
 }

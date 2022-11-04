@@ -52,14 +52,16 @@ body {
 .grid-5-cols {
   grid-template-columns: repeat(5, 1fr);
 }
-/* @media (min-width: 1500px) {
+
+/* Responsive Design */
+@media (max-width: 1365px) {
   html {
-    font-size: 70%;
+    font-size: 58%;
   }
 }
 
-@media (min-width: 1650px) {
+@media (max-width: 1288px) {
   html {
-    font-size: 80%;
+    font-size: 54%;
   }
-} */
+}

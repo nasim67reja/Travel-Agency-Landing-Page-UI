@@ -9,7 +9,6 @@ import googlePlay from "../assets/google-play.svg";
 import apple from "../assets/apple.svg";
 import playVector from "../assets/playVector.svg";
 import appleVector from "../assets/appleVector.svg";
-import tripBg from "../assets/tripBg.svg";
 
 const Column = ({ h4, first, second, third }) => {
   return (
@@ -89,9 +88,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="bg">
-        <img src={tripBg} alt="background color" />
-      </div> */}
       <div className="center">All rights reserved@jadoo.co</div>
     </section>
   );
