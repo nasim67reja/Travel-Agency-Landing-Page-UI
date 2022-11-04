@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero";
 import Logos from "./components/Logos/Logos";
 import Services from "./components/Services/Services";
+import Subscribe from "./components/Subscribe";
 import Testimonial from "./components/Testimonial/Testimonial";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <BookATrip />
       <Testimonial />
       <Logos />
+      <Subscribe />
       <Footer />
     </div>
   );
